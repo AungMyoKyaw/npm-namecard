@@ -4,7 +4,7 @@
   </a>
 </h1>
 
-> It is me
+> npm name namecard lib
 
 ## Usage
 
@@ -12,39 +12,55 @@
 npm i namecard
 ```
 
-## index.js
+### package.json
+
+```json
+.
+.
+.
+"bin": {
+  "aungmyokyaw": "./src/index.js"
+},
+.
+.
+.
+```
+
+
+### index.js
 
 ```javascript
 #!/usr/bin/env node
-const namecard = require('namecard')
+
+const namecard = require('namecard');
 const nameCardConfig = {
   name: 'Aung Myo Kyaw',
   about: 'nothing',
   items: [
     {
-      label: 'Website',
-      url: 'https://www.aungmyokyaw.com/',
+      label: 'Github',
+      url: 'https://github.com/AungMyoKyaw',
+    },
+    {
+      label: 'Blog',
+      url: 'https://blog.aungmyokyaw.com/',
     },
     {
       label: 'Twitter',
       url: 'https://twitter.com/aung_myo_kyaw',
     },
     {
-      label: 'Github',
-      url: 'https://github.com/AungMyoKyaw',
-    },
-    {
       label: 'LinkedIn',
       url: 'https://www.linkedin.com/in/aungmyokyaw/',
     },
-    {
-      label: 'Blog',
-      url: 'https://blog.aungmyokyaw.com/',
-    },
   ],
 };
-namecard(nameCardConfig.name, nameCardConfig.about, nameCardConfig.items)
+namecard(nameCardConfig.name, nameCardConfig.about, nameCardConfig.items);
 ```
+
+## Example Repo
+
+[AungMyoKyaw/aungmyokyaw-npm](https://github.com/AungMyoKyaw/aungmyokyaw-npm)
 
 ## License
 
