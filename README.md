@@ -21,7 +21,7 @@ npm i namecard
 .
 .
 "bin": {
-  "aungmyokyaw": "./src/index.js"
+  "yourname": "./src/index.js"
 },
 .
 .
