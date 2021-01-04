@@ -6,6 +6,8 @@
 
 > npm name namecard lib
 
+<img src="./assets/ss.png" alt="npm_namecard_ss" align="right" width="400">
+
 ## Usage
 
 ```shell
