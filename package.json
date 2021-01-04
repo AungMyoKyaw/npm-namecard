@@ -1,0 +1,42 @@
+{
+  "name": "namecard",
+  "version": "1.0.0",
+  "description": "npm name card",
+  "main": "src/index.js",
+  "scripts": {
+    "format": "prettier --write \"**/*\"",
+    "lint": "eslint \"**/*\"",
+    "lint:fix": "eslint \"**/*\" --fix",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AungMyoKyaw/npm-namecard.git"
+  },
+  "keywords": [
+    "name card",
+    "npm name card"
+  ],
+  "author": "Aung Myo Kyaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AungMyoKyaw/npm-namecard/issues"
+  },
+  "homepage": "https://github.com/AungMyoKyaw/npm-namecard#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "import-jsx": "^3.0.0",
+    "ink": "^2.3.0",
+    "ink-big-text": "^1.0.1",
+    "ink-link": "^1.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0"
+  }
+}
